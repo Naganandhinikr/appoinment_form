@@ -12,4 +12,4 @@ CREATE TABLE form_submissions (
     submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE INDEX idx_users_date_slots ON form_submissions(date, slot);
+-- CREATE INDEX idx_users_date_slots ON form_submissions(date, slot);
